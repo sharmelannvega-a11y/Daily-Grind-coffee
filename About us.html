@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Daily Grind Coffee</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="about us.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<header>
+<nav>
+    <img src="img/coffee.jpg" class="logo" alt="Daily Grind Coffee Logo">
+
+    <div class="navigation">
+        <ul>
+            <i id="menu-close" class="fas fa-times"></i>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About us.html" class="active">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <img src="img/menu.png" id="menu-btn" alt="">
+    </div>
+</nav>
+</header>
+
+<!-- Hero -->
+<section id="home">
+    <h2>About Daily Grind Coffee</h2>
+
+    <p>
+        Every great day starts with a great cup of coffee. At Daily Grind Coffee,
+        we are committed to serving freshly brewed beverages in a warm and welcoming
+        environment where everyone feels at home.
+    </p>
+</section>
+
+<!-- About -->
+<section id="about-container">
+
+    <div class="about-image">
+        <img src="img/about.jpg" alt="Coffee Shop">
+    </div>
+
+    <div class="about-text">
+
+        <h1>Who We Are</h1>
+
+        <p>
+            Daily Grind Coffee is more than just a coffee shop—it's a place where
+            people can relax, work, study, or spend quality time with family and
+            friends. Every cup is carefully crafted using premium coffee beans and
+            quality ingredients to deliver rich flavor and exceptional taste.
+        </p>
+
+        <p>
+            Our goal is to create memorable experiences by combining excellent
+            customer service, delicious beverages, and a cozy atmosphere that
+            welcomes everyone. Whether you prefer a strong espresso, a creamy latte,
+            or a refreshing iced drink, we have something for every coffee lover.
+        </p>
+
+        <div class="about-features">
+
+            <div class="feature">
+                <i class="fas fa-mug-hot"></i>
+                <div>
+                    <h3>Premium Coffee</h3>
+                    <p>Freshly brewed using carefully selected, high-quality beans.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-heart"></i>
+                <div>
+                    <h3>Made with Passion</h3>
+                    <p>Every drink is handcrafted with care and dedication.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h3>Friendly Community</h3>
+                    <p>A comfortable place where everyone is welcome to connect and relax.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Mission & Vision -->
+<section id="mission">
+
+    <div class="box">
+        <i class="fas fa-bullseye"></i>
+        <h2>Our Mission</h2>
+
+        <p>
+            To serve exceptional coffee while creating a welcoming environment
+            where every customer enjoys quality drinks, excellent service,
+            and meaningful moments.
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-eye"></i>
+        <h2>Our Vision</h2>
+
+        <p>
+            To become one of the most loved neighborhood coffee shops,
+            known for outstanding coffee, warm hospitality,
+            and unforgettable customer experiences.
+        </p>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+    <div class="footer-col">
+        <h3>Daily Grind Coffee</h3>
+        <p>
+            Fuel Your Day, One Cup at a Time.
+        </p>
+    </div>
+
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Popular Drinks</li>
+        <li>Contact</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Follow Us</h3>
+
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>© 2026 Daily Grind Coffee. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<!-- Menu Script -->
+<script>
+
+$('#menu-btn').click(function(){
+    $('nav .navigation ul').addClass('active');
+});
+
+$('#menu-close').click(function(){
+    $('nav .navigation ul').removeClass('active');
+});
+
+</script>
+
+</body>
+</html>
